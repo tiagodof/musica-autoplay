@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Música Automática</title>
+    <title>Auto Play Music</title>
     <style>
         body {
             display: flex;
@@ -32,13 +32,13 @@
     </style>
 </head>
 <body>
-    <h1>Tocando Música</h1>
-    <p>Clique no botão abaixo se a música não iniciar automaticamente.</p>
-    <button onclick="playAudio()">▶ Tocar Música</button>
+    <h1>Playing Music</h1>
+    <p>If the music does not start automatically, click the button below.</p>
+    <button onclick="playAudio()">▶ Play Music</button>
 
     <audio id="music" autoplay>
         <source src="https://drive.google.com/uc?export=download&id=1lo2idwGMmbnHssWPC168vpZUTCHZf4oi" type="audio/mpeg">
-        Seu navegador não suporta áudio.
+        Your browser does not support the audio element.
     </audio>
 
     <script>
